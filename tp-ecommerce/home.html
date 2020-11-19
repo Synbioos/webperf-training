@@ -808,13 +808,11 @@
 						<div class="grid__item medium-up--one-quarter logo-align--left">
 							<h1 class="h2 site-header__logo">
 								<a href="/" class="site-header__logo-image">
-									<!-- <img
+									<img
 										src="assets/img/Lightroom-logo_300x300.png"
 										alt="debut-theme-lightroom"
-										style="max-width: 135px"<?=
-										loading="lazy"
-									/> -->
-									<img src="data:image/png;base64,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" />
+										style="max-width: 135px"
+									/>
 								</a>
 							</h1>
 						</div>
@@ -1536,9 +1534,6 @@
 				tabindex="-1"
 			>
 				<!-- BEGIN content_for_index -->
-				
-				<img src="assets/img/Hero-adjusted-2_1950x.jpg" style="display:none;" />
-				
 				<div
 					id="shopify-section-hero"
 					class="shopify-section index-section index-section--flush"
@@ -1622,7 +1617,6 @@
 													class="grid-view-item__image"
 													alt="Udon Chair Natural"
 													src="assets/img/chaise-pliante_1296x.jpg"
-													loading="lazy"
 												/>
 											</div>
 										</div>
@@ -1746,7 +1740,6 @@
 													class="grid-view-item__image"
 													alt="Key Side Table Light Cork Black"
 													src="assets/img/tabouret_1296x.jpg"
-													loading="lazy"
 												/>
 											</div>
 										</div>
@@ -1872,7 +1865,6 @@
 													class="grid-view-item__image"
 													alt="Drifted Chair Dark Cork Oak"
 													src="//cdn.shopify.com/s/files/1/1915/7383/products/53c12350-925a-4a46-afa3-cb12e8e10517_2048x2048_75008383-c742-4db1-aace-7c6e2991c3b6_1296x.jpeg"
-													loading="lazy"
 												/>
 											</div>
 										</div>
@@ -2003,7 +1995,7 @@
 										role="img"
 										aria-label="hem sofa and table"
 										data-alt="hem sofa and table"
-										class="slideshow__image box ratio-container js lazyload"
+										class="slideshow__image box ratio-container js"
 										data-bg="assets/img/HEM_DSC9239-1_2048x2048_364e4292-9432-4e4d-905a-fab92d78d7a0_300x300.jpg"
 										data-bgset="//cdn.shopify.com/s/files/1/1915/7383/files/HEM_DSC9239-1_2048x2048_364e4292-9432-4e4d-905a-fab92d78d7a0_180x.jpg 180w 120h,
     //cdn.shopify.com/s/files/1/1915/7383/files/HEM_DSC9239-1_2048x2048_364e4292-9432-4e4d-905a-fab92d78d7a0_360x.jpg 360w 240h,
@@ -2057,7 +2049,7 @@
 										role="img"
 										aria-label="hem designer at work"
 										data-alt="hem designer at work"
-										class="slideshow__image box ratio-container js lazyload"
+										class="slideshow__image box ratio-container js"
 										data-bg="//cdn.shopify.com/s/files/1/1915/7383/files/about_4_image_2048x2048_92fce5e4-6b63-4767-ba45-38f7c5d7f790_300x300.jpg"
 										data-bgset="//cdn.shopify.com/s/files/1/1915/7383/files/about_4_image_2048x2048_92fce5e4-6b63-4767-ba45-38f7c5d7f790_180x.jpg 180w 96h,
     //cdn.shopify.com/s/files/1/1915/7383/files/about_4_image_2048x2048_92fce5e4-6b63-4767-ba45-38f7c5d7f790_360x.jpg 360w 191h,
@@ -2274,7 +2266,7 @@
 										>
 											<!-- ici il suffit de rajouter la classe "lazyload" à cette div -->
 											<div
-												class="collection-grid-item__overlay box ratio-container js lazyload"
+												class="collection-grid-item__overlay box ratio-container js"
 												data-bgset="//cdn.shopify.com/s/files/1/1915/7383/collections/Z_180x.jpg 180w 101h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z_360x.jpg 360w 203h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z_540x.jpg 540w 304h,
@@ -2311,7 +2303,7 @@
 										>
 											<!-- ici il suffit de rajouter la classe lazyload -->
 											<div
-												class="collection-grid-item__overlay box ratio-container js lazyload"
+												class="collection-grid-item__overlay box ratio-container js"
 												data-bgset="//cdn.shopify.com/s/files/1/1915/7383/collections/Z_e6fb1b14-5357-4a46-b331-ca5cbe1669db_180x.jpg 180w 101h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z_e6fb1b14-5357-4a46-b331-ca5cbe1669db_360x.jpg 360w 203h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z_e6fb1b14-5357-4a46-b331-ca5cbe1669db_540x.jpg 540w 304h,
@@ -2348,7 +2340,7 @@
 										>
 											<!-- ici il suffit de rajouter la classe lazyload -->
 											<div
-												class="collection-grid-item__overlay box ratio-container js lazyload"
+												class="collection-grid-item__overlay box ratio-container js"
 												data-bgset="//cdn.shopify.com/s/files/1/1915/7383/collections/Z23_180x.jpg 180w 101h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z23_360x.jpg 360w 203h,
     //cdn.shopify.com/s/files/1/1915/7383/collections/Z23_540x.jpg 540w 304h,
@@ -2469,7 +2461,6 @@
 												class="article__grid-image"
 												src="assets/img/wood-love_1296x.jpg"
 												alt=""
-												loading="lazy"
 											/>
 										</div>
 									</div>
@@ -2534,7 +2525,6 @@
 												class="article__grid-image"
 												src="//cdn.shopify.com/s/files/1/1915/7383/articles/PETRUS_8506_2048x2048_0d0a478a-f488-42f0-82e4-884e2f651166_1296x.jpg"
 												alt=""
-												loading="lazy"
 											/>
 										</div>
 									</div>
@@ -2603,7 +2593,6 @@
 												class="article__grid-image"
 												src="//cdn.shopify.com/s/files/1/1915/7383/articles/CChavarria_Everlane_Headquarters_Hi_Res_30_2048x2048_b6c521dd-9d07-4375-9e84-7e95649e67fb_1296x.jpg"
 												alt=""
-												loading="lazy"
 											/>
 										</div>
 									</div>
